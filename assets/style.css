@@ -1,0 +1,340 @@
+
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 0;
+        margin: 0%;
+        box-sizing: border-box;
+    }
+.hero{
+width: 100%;
+height: 101vh;
+background-image: linear-gradient(rgba(0, 0, 0, 0.87),rgba(0, 0, 0, 0.671)), url("./images/Ri.jpg");
+background-size: cover;
+background-position: center;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 0.1px solid white;
+    height: 80px;
+    width: 100%;
+    margin: 0;
+    
+}
+.logo{
+    color: white;
+    font-size: 25px;
+    letter-spacing: 0px;
+    cursor: pointer;
+    background-color:transparent; 
+    border-radius: 0px 20px 20px 0px ;
+    margin-left: 2rem;
+
+}
+
+span{
+    color: cornflowerblue;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: cornflowerblue;
+    transition: 1s;
+}
+.btn{
+    background-color: cornflowerblue;
+    color: black;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform;
+    margin-right: 2rem;
+
+}
+.btn:hover{
+    transform: scale(1.2);
+    background-color: cornsilk;
+    transition: 0.3s;
+}
+.sections{
+    margin: 0.5px 0;
+    height: 600px;
+    width: 100%;
+    padding: 2rem 5rem;
+    color: white !important;
+  
+
+}
+.content h1{
+    color: cornflowerblue;
+    
+}
+.content h2{
+    color: white;
+    font-family: 'Times New Roman', Times, serif ;
+    font-size: 60px;
+}
+.content fieldset{
+    width: 50%;
+}
+hr{
+    width: 70%;
+    position: relative;
+}
+.int{
+    color: white;
+    font-size: large;
+    font-family: monospace;
+}
+.hire button{
+    padding: 1%;
+    width: 300px;
+    margin: 20px 0; 
+    cursor: pointer;
+    border-radius: 5px;
+    border: transparent;
+    font-weight: bolder;
+    font-size: medium;
+}
+.hire button:hover{
+    background-color: #6ee5fadc;
+    transition: 0.3s;
+    color: black;
+    font-weight: bolder;
+    font-size: larger;
+}
+#about{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.87),rgba(0, 0, 0, 0.671)), url("./images/Rgg.jpg");
+    background-size: cover;
+    background-position: center;
+    color: bisque; 
+    margin-top: -1rem !important;
+    height: 720px !important;
+    
+}
+#about div:nth-of-type(2){
+    margin-top: 4rem;
+
+}
+#about div:nth-of-type(2) h2{
+    margin-bottom: 4rem;
+
+}
+.container{
+    display: flex;
+    text-align: center;
+}
+.me{
+    /* height: 97vh; */
+    margin-right: 5rem;
+}
+.heading{
+    font-size: 40px;
+}
+.me img{
+    position: relative;
+    /* left: -2%; */
+    /* top: 10%; */
+    width: 450px;
+    height: 460px;
+    margin: 7% 4% 4% 10%;
+    cursor: pointer;
+    border-radius: 20px;
+   
+}
+
+.me h2{
+    margin-top: 100px;
+}
+
+.me p{
+    float: right;
+    width: 30%;
+    margin-right: 160px;
+    font-family: monospace;
+}
+.form{
+    /* padding: 10%;*/
+    padding-left: 30%; 
+     height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.918),rgba(0, 0, 0, 0.842)), url("./images/Ri.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    position: absolute;
+    left: -200px;
+}
+.form fieldset{
+    width: 70%;
+   /* text-align: center; */
+   padding-left: 10%;
+   border-radius: 10px;
+   border-color: black;
+   background-color: #1b4383dc;
+}
+.form legend{
+    text-align: center;
+    background-color: #242323dc;
+    padding: 2%;
+    width: 40%;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+}
+.form table{
+    padding: 3%;
+    color: antiquewhite;
+    font-weight: bold;
+}
+.form td{
+    padding: 3%;
+
+}
+.form input{
+    padding: 5%;
+    border-radius: 5px;
+    border: transparent;
+
+    
+}
+.form button{
+    margin-left: 20%;
+    background-color: #000000dc;
+    color: white;
+    padding: 2%;
+    width: 65px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: transparent;
+    
+}
+#skills{
+    /* width: 100%;
+    height: 100vh;
+    color: white;
+    margin: 0%; */
+    background-image:  url("./images/Ri.jpg");
+    background-position: center;
+    background-size: cover;
+        
+}
+.skills h1{
+    text-align: center;
+    font-size: 300%;   
+}
+#skills{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.row{
+    display: flex;
+    margin-left: 5%;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 260px;
+    border: 1px solid rgb(255, 255, 255);
+    margin: 20px;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    border-radius: 15px;
+    background: linear-gradient(to top, rgb(27, 62, 82) 50%, rgb(255, 255, 255) 50%);
+    background-size: 100% 200%;
+    transition: all .4s;
+    color: rgb(2, 2, 3);
+
+}
+.box:hover{
+    background-position: left bottom;
+    color: white;
+    border: none;
+    box-shadow: 0 0 20px rgb(78, 132, 231);
+}
+.box p{
+    cursor: pointer;
+}
+.box hr{
+    width: 100%;
+    
+}
+.box-hr{
+    margin: 1px 0px 30px 0px;
+}
+.intro-header{
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 24px;
+    color: cornflowerblue;
+}
+.intro-text{
+    margin: 2rem 5rem;
+
+}
+.intro-text p{
+    line-height: 1.5;
+    margin-top: 20px;
+    color: white;
+}
+footer{
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    color: black;
+    background-color: rgb(117, 112, 112);
+    position: relative;
+    /* top: 500%; */
+    margin-top: 0 !important ;
+    
+    
+}
+footer p{
+    padding-top: 15px;
+}
+.gallery-button{
+    height: 60px;
+    width: 50%;
+    margin-left: 330px;
+    margin-top: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: white;
+    border: transparent;
+}
+.gallery-button a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+     transition: transform;
+}
+.gallery-button a:hover{
+    transform: scale(1.2);
+    background-color: cornflowerblue;
+    transition: 0.3s;
+}
+
+
+         
